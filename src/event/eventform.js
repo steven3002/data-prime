@@ -41,7 +41,7 @@ const Modal = ({ show, closeModal, submitFn }) => {
                             type='number' required value={data.payment} />
                     </div>
                     <div>
-                        <label>Title</label>
+                        <label>Description</label>
                         <textarea placeholder='Enter a description' onChange={handleChange}
                             name='description' required value={data.description} />
                     </div>
